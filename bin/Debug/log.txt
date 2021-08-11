@@ -1,0 +1,117 @@
+加载完毕
+服务器启动完毕
+向客户端（127.0.0.1:56749）发送[220 FTP Server v1.0]
+来自127.0.0.1:56749：[USER anonymous]
+向客户端（127.0.0.1:56749）发送[331 USER command OK, password required.]
+来自127.0.0.1:56749：[PASS IEUser@]
+向客户端（127.0.0.1:56749）发送[230 User logged in success]
+来自127.0.0.1:56749：[opts utf8 on]
+向客户端（127.0.0.1:56749）发送[502 command has not been implemented yet]
+来自127.0.0.1:56749：[PWD]
+向客户端（127.0.0.1:56749）发送[250 'D:\\BaiduNetdiskDownload\\root' is the current directory]
+来自127.0.0.1:56749：[TYPE A]
+向客户端（127.0.0.1:56749）发送[220 Type set to A(ASCII)]
+来自127.0.0.1:56749：[PASV]
+TCP 数据连接已打开（被动模式）--127.0.0.1：16184
+向客户端（127.0.0.1:56749）发送[227 Entering Passive Mode(127,0,0,1,63,56)]
+来自127.0.0.1:56749：[LIST]
+向客户端（127.0.0.1:56749）发送[150 Opening ASCII data connection]
+采用被动模式返回LIST目录和文件列表
+向用户发送(字符串信息)：[drwxr-xr-x	DESKTOP-I1HPDKI	10 Aug 09 2021	test
+-rw-r--r--	DESKTOP-I1HPDKI	60701 Aug 18 2018	CEAEB3C530E3ACB7CA760D9A781E0123DC215140.torrent
+-rw-r--r--	DESKTOP-I1HPDKI	15 Aug 08 2021	test1.txt
+-rw-r--r--	DESKTOP-I1HPDKI	15 Aug 08 2021	test2.txt
+-rw-r--r--	DESKTOP-I1HPDKI	28 Aug 08 2021	测试文件.txt
+-rw-r--r--	DESKTOP-I1HPDKI	28 Aug 10 2021	测试文件2.txt
+]
+发送完毕
+向客户端（127.0.0.1:56749）发送[226 Transfer complete]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/' successfully]
+来自127.0.0.1:56749：[TYPE A]
+向客户端（127.0.0.1:56749）发送[220 Type set to A(ASCII)]
+来自127.0.0.1:56749：[PASV]
+TCP 数据连接已打开（被动模式）--127.0.0.1：37516
+向客户端（127.0.0.1:56749）发送[227 Entering Passive Mode(127,0,0,1,146,140)]
+来自127.0.0.1:56749：[LIST]
+向客户端（127.0.0.1:56749）发送[150 Opening ASCII data connection]
+采用被动模式返回LIST目录和文件列表
+向用户发送(字符串信息)：[drwxr-xr-x	DESKTOP-I1HPDKI	10 Aug 09 2021	test
+-rw-r--r--	DESKTOP-I1HPDKI	60701 Aug 18 2018	CEAEB3C530E3ACB7CA760D9A781E0123DC215140.torrent
+-rw-r--r--	DESKTOP-I1HPDKI	15 Aug 08 2021	test1.txt
+-rw-r--r--	DESKTOP-I1HPDKI	15 Aug 08 2021	test2.txt
+-rw-r--r--	DESKTOP-I1HPDKI	28 Aug 08 2021	测试文件.txt
+-rw-r--r--	DESKTOP-I1HPDKI	28 Aug 10 2021	测试文件2.txt
+]
+发送完毕
+向客户端（127.0.0.1:56749）发送[226 Transfer complete]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/' successfully]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/' successfully]
+来自127.0.0.1:56749：[PWD]
+向客户端（127.0.0.1:56749）发送[250 'D:\\BaiduNetdiskDownload\\root' is the current directory]
+来自127.0.0.1:56749：[CWD /]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/' successfully]
+来自127.0.0.1:56749：[TYPE I]
+向客户端（127.0.0.1:56749）发送[220 Type set to I(Binary)]
+来自127.0.0.1:56749：[PASV]
+TCP 数据连接已打开（被动模式）--127.0.0.1：15501
+向客户端（127.0.0.1:56749）发送[227 Entering Passive Mode(127,0,0,1,60,141)]
+来自127.0.0.1:56749：[SIZE 测试文件2.txt]
+命名空间FTPCmd.impl下没有定义命令:SIZE
+向客户端（127.0.0.1:56749）发送[502 command is not implemented.]
+来自127.0.0.1:56749：[RETR 测试文件2.txt]
+向客户端（127.0.0.1:56749）发送[150 Opening BINARY mode data connection for download]
+采用被动模式返回LIST目录和文件列表
+向用户发送(文件流)：[...
+...]发送完毕！
+向客户端（127.0.0.1:56749）发送[226 Transfer complete]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /test/]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/test/' successfully]
+来自127.0.0.1:56749：[TYPE A]
+向客户端（127.0.0.1:56749）发送[220 Type set to A(ASCII)]
+来自127.0.0.1:56749：[PASV]
+TCP 数据连接已打开（被动模式）--127.0.0.1：19247
+向客户端（127.0.0.1:56749）发送[227 Entering Passive Mode(127,0,0,1,75,47)]
+来自127.0.0.1:56749：[LIST]
+向客户端（127.0.0.1:56749）发送[150 Opening ASCII data connection]
+采用被动模式返回LIST目录和文件列表
+向用户发送(字符串信息)：[-rw-r--r--	DESKTOP-I1HPDKI	10 Aug 10 2021	初めにお読みください.txt
+]
+发送完毕
+向客户端（127.0.0.1:56749）发送[226 Transfer complete]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /test/]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/test/' successfully]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /test/]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/test/' successfully]
+来自127.0.0.1:56749：[TYPE A]
+向客户端（127.0.0.1:56749）发送[220 Type set to A(ASCII)]
+来自127.0.0.1:56749：[PASV]
+TCP 数据连接已打开（被动模式）--127.0.0.1：25883
+向客户端（127.0.0.1:56749）发送[227 Entering Passive Mode(127,0,0,1,101,27)]
+来自127.0.0.1:56749：[LIST]
+向客户端（127.0.0.1:56749）发送[150 Opening ASCII data connection]
+采用被动模式返回LIST目录和文件列表
+向用户发送(字符串信息)：[-rw-r--r--	DESKTOP-I1HPDKI	10 Aug 10 2021	初めにお読みください.txt
+]
+发送完毕
+向客户端（127.0.0.1:56749）发送[226 Transfer complete]
+来自127.0.0.1:56749：[noop]
+向客户端（127.0.0.1:56749）发送[200 command successfuly]
+来自127.0.0.1:56749：[CWD /test/]
+向客户端（127.0.0.1:56749）发送[250 Directory changed to 'D:\\BaiduNetdiskDownload\\root/test/' successfully]
+来自127.0.0.1:56749：[TYPE I]
+向客户端（127.0.0.1:56

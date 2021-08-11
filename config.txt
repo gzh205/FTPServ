@@ -1,0 +1,5 @@
+﻿max_ctrl_concurrent=65535 #最大并发数
+root_dir=D:/BaiduNetdiskDownload #FTP的主目录
+userdb_path=D:/Visual Studio Project/FTPServ/user_cfg.db #用户数据库的位置
+ip_addr=127.0.0.1 #ip地址
+port=21 #端口号
